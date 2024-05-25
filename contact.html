@@ -56,7 +56,7 @@
                                                     <ul class="submenu">
                                                         <li><a href="Labor.html">Labor management</a></li>
                                                         <li><a href="BreastFeeding.html">Breast feeding</a></li>
-                                                        <li><a href="postpartum.html">Postpartum and newboarn care</a></li>
+                                                        <li><a href="Postpartum.html">Postpartum and newboarn care</a></li>
                                                         <li><a href="LAMAZEseries.html">Lamaze series</a></li>
                                                         <li><a href="childbirth.html">Personal child birth care</a></li>
                                                     </ul>
@@ -69,7 +69,7 @@
                                         </nav>
                                     </div>
                                     <div class="header-right-btn f-right d-none d-xl-block ml-20">
-                                        <a href="#" class="btn header-btn">Book Appointment</a>
+                                        <a class="btn header-btn"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto; all: unset; color: white;">Book Appointment</button>                                        </a>
                                     </div>
                                 </div>
                             </div>   
@@ -195,6 +195,52 @@
             
         </section>
         <!-- ================ contact section end ================= -->
+
+<!-- Book appointment start -->
+
+<div id="id01" class="modal">
+  
+    <div class="modal-content animate">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="assets/custom_img/Screenshot 2024-05-21 160131-01.jpeg.jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <h1>Book Free Appointment with us</h1>
+        <p>Book a one-on-one session with us to learn how the Lamaze classes.</p>
+        <h3>Available week days</h3>
+        <p>Monday to Saturday from 10:00 a.m to 6:00 p.m</p>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button class="email-button" onclick="location.href='mailto:sudhayan2@gmail.com?subject=This mail is regarding appointment booking&body=Hello Bearing! This is Arthi yours Lamaze Instructor. I am available from Monday to Saturday between 10 AM and 6 PM. Please feel free to schedule a free appointment to learn more about our Lamaze classes.'" >
+            Book Appointment
+        </button>
+        
+      </div>
+  </div>
+  </div>
+  
+
+
+
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+<!-- Book appointment end -->
+
 
     </main>
  <footer>
